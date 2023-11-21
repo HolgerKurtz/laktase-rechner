@@ -1,6 +1,6 @@
 (function (window) {
   // Load Bootstrap CSS
-  loadBootstrap();
+  loadCSS();
 
   // Food items data
   const foodItems = {
@@ -23,32 +23,30 @@
   // Expose the updateInfo function to the global scope
   window.FoodInfoWidget = { updateInfo };
 
-  function loadBootstrap() {
+  function loadCSS() {
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href =
-      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+    link.href = "lactase-widget-main.css";
     document.head.appendChild(link);
   }
 
   function generateWidgetHTML() {
     return `
-      <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6">
-        <h2> Laktase FCC Rechner</h2>
-        <small> Hinweise zum kostenlosen Laktase-Rechner unter <a href="https://www.lactojoy.com">LactoJoy.com</a></small>
-        <div class="form-group">
-          <input class="form-control" list="food-items" id="food-item" placeholder="Cappuccino, Milchreis etc."/>
-          <datalist id="food-items">
-            ${Object.keys(foodItems)
-              .map((item) => `<option value="${item}">${item}</option>`)
-              .join("")}
-          </datalist>
-        </div>
-        <button id="calculate" class="btn btn-primary" onclick="window.FoodInfoWidget.updateInfo()">Calculate</button>
-        <div id="info" class="mt-3"></div>
-        </div>
+    <div class="widget-container">
+    <div class="widget-row">
+      <div class="widget-col">
+      <h2 class="widget-header"> Laktase FCC Rechner</h2>
+      <small class="widget-disclaimer"> Hinweise zum kostenlosen Laktase-Rechner unter <a href="https://www.lactojoy.com">LactoJoy.com</a></small>
+      <div class="widget-input-group">
+        <input class="widget-input" list="food-items" id="food-item" placeholder="Cappuccino, Milchreis etc."/>
+        <datalist id="food-items">
+          ${Object.keys(foodItems)
+            .map((item) => `<option value="${item}">${item}</option>`)
+            .join("")}
+        </datalist>
+      </div>
+      <button id="calculate" class="widget-btn-primary" onclick="window.FoodInfoWidget.updateInfo()">Calculate</button>
+      <div id="info"></div>
       </div>
     </div>
     `;
@@ -74,18 +72,18 @@
     const [fccUnits, pillsNeeded] = calculateLactase(lactoseContent);
 
     infoElement.innerHTML = `
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Ergebnisse:</h5>
-          <p class="card-text">
-          <ul class="list-group list-group-flush">
-          <li class="list-group-item">ø Portionsgröße (${foodItem}): <span class="badge rounded-pill text-bg-primary"><b>${portionSize}</b></span><br> </li>
-          <li class="list-group-item">Laktase pro Portion:  <span class="badge rounded-pill text-bg-danger"> <b>${lactoseContent}</b></span><br></li>
-          <li class="list-group-item">Benötigte FCC Anzahl: <span class="badge rounded-pill text-bg-secondary"> <b>${fccUnits}</b></span><br></li>
-          <li class="list-group-item">LactoJoy Tabletten (Anzahl): <span class="badge rounded-pill text-bg-success"> <b>${pillsNeeded}</b></span></li>
-          </ul>
-        </div>
-      </div>
+    <div class="widget-card">
+    <div class="widget-card-body">
+      <h5 class="widget-card-title">Ergebnisse:</h5>
+      <p class="widget-card-text">
+      <ul class="widget-list-group">
+      <li class="widget-list-group-item">ø Portionsgröße (${foodItem}): <span class="widget-badge widget-badge-primary"><b>${portionSize}</b></span><br> </li>
+      <li class="widget-list-group-item">Laktase pro Portion:  <span class="widget-badge widget-badge-danger"><b>${lactoseContent}</b></span><br></li>
+      <li class="widget-list-group-item">Benötigte FCC Anzahl: <span class="widget-badge widget-badge-secondary"><b>${fccUnits}</b></span><br></li>
+      <li class="widget-list-group-item">LactoJoy Tabletten (Anzahl): <span class="widget-badge widget-badge-success"><b>${pillsNeeded}</b></span></li>
+      </ul>
+    </div>
+  </div>
     `;
   }
 

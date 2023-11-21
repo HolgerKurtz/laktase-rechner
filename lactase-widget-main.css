@@ -1,0 +1,153 @@
+.widget-container {
+  max-width: 600px; /* Adjust this value to your needs */
+  margin: 0 auto; /* This will center the container if it's smaller than the screen width */
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.widget-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.widget-col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.widget-header {
+  font-size: 1.5rem; /* Adjust this value to your needs */
+}
+
+.widget-disclaimer {
+  font-size: 1em;
+}
+
+.widget-input-group {
+  margin-bottom: 1rem;
+}
+
+.widget-input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.widget-btn-primary {
+  color: #fff;
+  background-color: #a3d683; /* Green color */
+  border-color: #92c572; /* Slightly darker green for border */
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 50px; /* Increase border-radius to make it more rounded */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.widget-btn-primary:hover {
+  color: #fff;
+  background-color: #92c572; /* Slightly darker green for hover */
+  border-color: #81b461; /* Even darker green for hover border */
+}
+
+.widget-card {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.widget-card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.widget-card-title {
+  margin-top: 0px;
+  font-size: 1.5rem; /* Adjust this value to your needs */
+  margin-bottom: 0.75rem;
+}
+
+.widget-card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.widget-list-group {
+  padding-left: 0;
+}
+
+.widget-list-group-item {
+  padding-left: 0;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.widget-badge {
+  /* Generic styles for all badges */
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.widget-badge-primary {
+  /* Specific styles for primary badge */
+  color: #fff;
+  background-color: #007bff;
+}
+
+.widget-badge-danger {
+  /* Specific styles for danger badge */
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.widget-badge-secondary {
+  /* Specific styles for secondary badge */
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.widget-badge-success {
+  /* Specific styles for success badge */
+  color: #fff;
+  background-color: #28a745;
+}
