@@ -11,10 +11,10 @@
     "1 Liter Milch": { portionSize: "1000 ml", lactoseContent: "49 g" },
   };
 
-  // Create and append widget to the body
+  // Create and append widget to the div #myWidget
   const widgetDiv = document.createElement("div");
   widgetDiv.innerHTML = generateWidgetHTML();
-  document.body.appendChild(widgetDiv);
+  document.getElementById("myWidget").appendChild(widgetDiv);
 
   // On Button Click
   const calculateButton = document.getElementById("calculate");

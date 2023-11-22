@@ -6,7 +6,8 @@
   <body>
     <h2>Externe Webeitenüberschrift</h2>
     <p>Hier steht dann ein externe Blogbeitrag, oder so.</p>
-    <!-- Food Conversion Widget-->
+    <!-- WIDGET -->
+    <div id="myWidget"></div>
     <script>
       (function (d, w, c) {
         w.FoodConversionWidgetID = "YourUniqueWidgetID"; // if needed
@@ -18,10 +19,17 @@
         var s = d.createElement("script");
         s.async = true;
         s.src =
-          "https://cdn.jsdelivr.net/gh/HolgerKurtz/laktase-rechner@latest/lactase.min.js";
-        if (d.head) d.head.appendChild(s);
+          "https://cdn.jsdelivr.net/gh/HolgerKurtz/laktase-rechner@v1.1.1/lactase.min.js";
+        var widgetLocation = d.getElementById("myWidget");
+        if (widgetLocation) widgetLocation.appendChild(s);
       })(document, window, "FoodConversionWidget");
     </script>
-    <!-- /Food Conversion Widget -->
+    <!-- Widget END-->
+    <p>Hier steht dann wieder ein anderer Text</p>
+    <ul>
+      <li>Und hier ist eine Liste</li>
+      <li>Und hier ist eine Liste</li>
+      <li>Und hier ist eine Liste</li>
+    </ul>
   </body>
 </html>
