@@ -26,7 +26,8 @@
   function loadCSS() {
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "lactase-widget-main.css";
+    link.href =
+      "https://cdn.jsdelivr.net/gh/HolgerKurtz/laktase-rechner@latest/lactase-widget-main.css";
     document.head.appendChild(link);
   }
 
