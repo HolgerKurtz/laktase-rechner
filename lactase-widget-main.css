@@ -4,8 +4,11 @@
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .widget-row {
@@ -46,6 +49,7 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-sizing: border-box; /* Add this line */
 }
 
 .widget-btn-primary {
