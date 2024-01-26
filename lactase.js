@@ -51,7 +51,7 @@
     <div class="widget-row">
       <div class="widget-col">
       <h2 class="widget-header"> Laktase FCC Rechner</h2>
-      <small class="widget-disclaimer"> Hinweise zum kostenlosen Laktase-Rechner unter <a href="https://www.lactojoy.com">LactoJoy.com</a></small>
+      <small class="widget-disclaimer"> Hinweise zum kostenlosen Laktase-Rechner unter <a href="https://www.lactojoy.de?utm_campaign=lactaserechner?utm_source=seo?">LactoJoy.de</a></small>
       <div class="widget-input-group">
         <input class="widget-input" list="food-items" id="food-item" placeholder="Cappuccino, Milchreis etc."/>
         <datalist id="food-items">
