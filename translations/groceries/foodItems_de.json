@@ -1,0 +1,21 @@
+{
+  "Croissant": { "portionSize": "180 g", "lactoseContent": "4,1 g" },
+  "Milchreis": { "portionSize": "200 g", "lactoseContent": "5,6 g" },
+  "Kakao": { "portionSize": "200 ml", "lactoseContent": "7,6 g" },
+  "Tiramisu": { "portionSize": "200 g", "lactoseContent": "22,8 g" },
+  "1 Liter Milch": { "portionSize": "1000 ml", "lactoseContent": "49 g" },
+  "Sahne": { "portionSize": "100 ml", "lactoseContent": "3,2 g" },
+  "Creme fraiche": { "portionSize": "100 ml", "lactoseContent": "3,2 g" },
+  "Schokopudding": { "portionSize": "200 ml", "lactoseContent": "6,2 g" },
+  "Vollmilchschokolade": { "portionSize": "100 g", "lactoseContent": "6,4 g" },
+  "Latte Macchiato": { "portionSize": "200 ml", "lactoseContent": "8.6 g" },
+  "Joghurt": { "portionSize": "200 g", "lactoseContent": "9,3 g" },
+  "Buttermilch": { "portionSize": "500 ml", "lactoseContent": "18,8 g" },
+  "Kefir": { "portionSize": "500 g", "lactoseContent": "23,8 g" },
+  "Schoko-Milch-Riegel": { "portionSize": "20 g", "lactoseContent": "1,9 g" },
+  "Toast mit Butter": { "portionSize": "70 g", "lactoseContent": "0,5 g" },
+  "Obatzda": { "portionSize": "200 g", "lactoseContent": "2 g" },
+  "Mozarella": { "portionSize": "100 g", "lactoseContent": "0 g" },
+  "1 Kugel Eis": { "portionSize": "50 g", "lactoseContent": "3,4 g" },
+  "1 Butterkeks": { "portionSize": "5 g", "lactoseContent": "0,3 g" }
+}

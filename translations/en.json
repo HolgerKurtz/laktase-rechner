@@ -1,0 +1,10 @@
+{
+  "widgetHeader": "Lactase FCC Calculator",
+  "widgetDisclaimer": "Notes on the free lactase calculator at <a href='https://www.lactojoy.com?utm_campaign=lactaserechner?utm_source=seo?'>LactoJoy.de</a>",
+  "calculateButton": "Calculate",
+  "resultsTitle": "Results:",
+  "portionSizeLabel": "Average Portion Size",
+  "lactasePerPortionLabel": "Lactase per Portion",
+  "fccUnitsLabel": "Required FCC Units",
+  "pillsNeededLabel": "LactoJoy Tablets (Count)"
+}

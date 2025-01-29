@@ -1,0 +1,48 @@
+{
+  "Croissant": { "portionSize": "6.35 oz", "lactoseContent": "0.145 oz" },
+  "Rice Pudding": { "portionSize": "7.05 oz", "lactoseContent": "0.198 oz" },
+  "Chocolate Milk": {
+    "portionSize": "6.76 fl oz",
+    "lactoseContent": "0.268 oz"
+  },
+  "Tiramisu": { "portionSize": "7.05 oz", "lactoseContent": "0.804 oz" },
+  "1 Quart Whole Milk": {
+    "portionSize": "33.81 fl oz",
+    "lactoseContent": "1.73 oz"
+  },
+  "Heavy Cream": { "portionSize": "3.38 fl oz", "lactoseContent": "0.113 oz" },
+  "Crème Fraîche": {
+    "portionSize": "3.38 fl oz",
+    "lactoseContent": "0.113 oz"
+  },
+  "Chocolate Pudding": {
+    "portionSize": "6.76 fl oz",
+    "lactoseContent": "0.218 oz"
+  },
+  "Milk Chocolate": { "portionSize": "3.53 oz", "lactoseContent": "0.226 oz" },
+  "Latte Macchiato": {
+    "portionSize": "6.76 fl oz",
+    "lactoseContent": "0.304 oz"
+  },
+  "Yogurt": { "portionSize": "7.05 oz", "lactoseContent": "0.328 oz" },
+  "Buttermilk": { "portionSize": "16.91 fl oz", "lactoseContent": "0.663 oz" },
+  "Kefir": { "portionSize": "17.64 oz", "lactoseContent": "0.84 oz" },
+  "Chocolate Milk Bar": {
+    "portionSize": "0.71 oz",
+    "lactoseContent": "0.067 oz"
+  },
+  "Toast with Butter": {
+    "portionSize": "2.47 oz",
+    "lactoseContent": "0.018 oz"
+  },
+  "Bavarian Cheese Spread (Obatzda)": {
+    "portionSize": "7.05 oz",
+    "lactoseContent": "0.071 oz"
+  },
+  "Mozzarella": { "portionSize": "3.53 oz", "lactoseContent": "0 oz" },
+  "1 Scoop Ice Cream": {
+    "portionSize": "1.76 oz",
+    "lactoseContent": "0.12 oz"
+  },
+  "1 Butter Cookie": { "portionSize": "0.18 oz", "lactoseContent": "0.011 oz" }
+}

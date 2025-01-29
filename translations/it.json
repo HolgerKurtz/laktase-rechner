@@ -1,0 +1,10 @@
+{
+  "widgetHeader": "Calcolatore di Lattasi FCC",
+  "widgetDisclaimer": "Note sul calcolatore gratuito della lattasi su <a href='https://www.lactojoy.com?utm_campaign=lactaserechner?utm_source=seo?'>LactoJoy.de</a>",
+  "calculateButton": "Calcola",
+  "resultsTitle": "Risultati:",
+  "portionSizeLabel": "Dimensione media della porzione",
+  "lactasePerPortionLabel": "Lattasi per porzione",
+  "fccUnitsLabel": "Unità FCC richieste",
+  "pillsNeededLabel": "Compresse di LactoJoy (Quantità)"
+}

@@ -1,0 +1,30 @@
+{
+  "Croissant": { "portionSize": "180 g", "lactoseContent": "4,1 g" },
+  "Riso al Latte": { "portionSize": "200 g", "lactoseContent": "5,6 g" },
+  "Cioccolata Calda": { "portionSize": "200 ml", "lactoseContent": "7,6 g" },
+  "Tiramisù": { "portionSize": "200 g", "lactoseContent": "22,8 g" },
+  "1 Litro di Latte": { "portionSize": "1000 ml", "lactoseContent": "49 g" },
+  "Panna": { "portionSize": "100 ml", "lactoseContent": "3,2 g" },
+  "Crème Fraîche": { "portionSize": "100 ml", "lactoseContent": "3,2 g" },
+  "Budino al Cioccolato": {
+    "portionSize": "200 ml",
+    "lactoseContent": "6,2 g"
+  },
+  "Cioccolato al Latte": { "portionSize": "100 g", "lactoseContent": "6,4 g" },
+  "Latte Macchiato": { "portionSize": "200 ml", "lactoseContent": "8,6 g" },
+  "Yogurt": { "portionSize": "200 g", "lactoseContent": "9,3 g" },
+  "Latticello": { "portionSize": "500 ml", "lactoseContent": "18,8 g" },
+  "Kefir": { "portionSize": "500 g", "lactoseContent": "23,8 g" },
+  "Barretta al Cioccolato e Latte": {
+    "portionSize": "20 g",
+    "lactoseContent": "1,9 g"
+  },
+  "Toast con Burro": { "portionSize": "70 g", "lactoseContent": "0,5 g" },
+  "Obatzda (Crema di Formaggio Bavarese)": {
+    "portionSize": "200 g",
+    "lactoseContent": "2 g"
+  },
+  "Mozzarella": { "portionSize": "100 g", "lactoseContent": "0 g" },
+  "1 Pallina di Gelato": { "portionSize": "50 g", "lactoseContent": "3,4 g" },
+  "1 Biscotto al Burro": { "portionSize": "5 g", "lactoseContent": "0,3 g" }
+}
