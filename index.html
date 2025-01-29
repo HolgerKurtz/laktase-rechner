@@ -19,7 +19,8 @@
         var s = d.createElement("script");
         s.async = true;
         s.src =
-          "https://cdn.jsdelivr.net/gh/HolgerKurtz/laktase-rechner@v1.1.1/lactase.min.js?lang=de";
+          "https://cdn.jsdelivr.net/gh/HolgerKurtz/laktase-rechner@v1.1.1/lactase.min.js";
+        s.setAttribute("data-lang", "de"); // Set the language as a data attribute
         var widgetLocation = d.getElementById("myWidget");
         if (widgetLocation) widgetLocation.appendChild(s);
       })(document, window, "FoodConversionWidget");
