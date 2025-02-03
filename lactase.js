@@ -1,7 +1,8 @@
 (function (window) {
   // Load Bootstrap CSS
   loadCSS();
-
+  // URL PREFIX for Translations
+  let translation_prefix = "https://raw.githubusercontent.com/HolgerKurtz/laktase-rechner/refs/heads/main/";
   // Declare foodItems in a broader scope
   let foodItems = {};
 
@@ -15,7 +16,7 @@
   // Load translations based on the script parameter
   function loadTranslations() {
     const lang = getScriptLanguage();
-    const translationsUrl = `translations/${lang}.json`;
+    const translationsUrl = `${translation_prefix}translations/${lang}.json`;
 
     return fetch(translationsUrl)
       .then((response) => response.json())
@@ -28,7 +29,7 @@
   // Load food items based on the script parameter
   function loadFoodItems() {
     const lang = getScriptLanguage();
-    const foodItemsUrl = `translations/groceries/foodItems_${lang}.json`;
+    const foodItemsUrl = `${translation_prefix}translations/groceries/foodItems_${lang}.json`;
 
     return fetch(foodItemsUrl)
       .then((response) => response.json())
