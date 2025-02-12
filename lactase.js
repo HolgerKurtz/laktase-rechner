@@ -2,7 +2,8 @@
   // Load Bootstrap CSS
   loadCSS();
   // URL PREFIX for Translations
-  let translation_prefix = "https://raw.githubusercontent.com/HolgerKurtz/laktase-rechner/refs/heads/main/";
+  let translation_prefix =
+    "https://raw.githubusercontent.com/HolgerKurtz/laktase-rechner/refs/heads/main/";
   // Declare foodItems in a broader scope
   let foodItems = {};
 
@@ -72,7 +73,7 @@
       <h2 class="widget-header">${translations.widgetHeader}</h2>
       <small class="widget-disclaimer">${translations.widgetDisclaimer}</small>
       <div class="widget-input-group">
-        <input class="widget-input" list="food-items" id="food-item" placeholder="Cappuccino, Milchreis etc."/>
+        <input class="widget-input" list="food-items" id="food-item" placeholder="Cappuccino, Croissant …"/>
         <datalist id="food-items">
           ${Object.keys(foodItems)
             .map((item) => `<option value="${item}">${item}</option>`)
